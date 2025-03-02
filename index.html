@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фото дня от Unsplash</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Фото дня</h1>
+        <div id="photo-container" class="text-center mt-4">
+            <img id="photo" src="" alt="Фото дня" class="img-fluid rounded">
+            <p id="photographer" class="mt-3"></p>
+            <button id="like-btn" class="btn btn-primary">❤️ <span id="like-count">0</span></button>
+        </div>
+
+        <div id="history" class="mt-5">
+            <h2>История просмотров</h2>
+            <div id="history-list" class="row"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
